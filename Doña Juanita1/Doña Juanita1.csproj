@@ -8,12 +8,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{C7F53863-C344-4537-BCA0-5E9C7EC85944}</ProjectGuid>
+    <ProjectGuid>{EE3A1553-B842-445A-AE29-989A7AA91A01}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Doña_Juanita</RootNamespace>
-    <AssemblyName>Doña Juanita</AssemblyName>
+    <RootNamespace>Doña_Juanita1</RootNamespace>
+    <AssemblyName>Doña Juanita1</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
@@ -202,7 +202,6 @@
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\PedidosController.cs" />
     <Compile Include="Controllers\ProductosController.cs" />
-    <Compile Include="Controllers\TipoClientesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -315,26 +314,21 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <Content Include="Views\Clientes\Create.cshtml" />
-    <Content Include="Views\Clientes\Delete.cshtml" />
-    <Content Include="Views\Clientes\Details.cshtml" />
-    <Content Include="Views\Clientes\Edit.cshtml" />
-    <Content Include="Views\Clientes\Index.cshtml" />
-    <Content Include="Views\Productos\Create.cshtml" />
-    <Content Include="Views\Productos\Delete.cshtml" />
-    <Content Include="Views\Productos\Details.cshtml" />
-    <Content Include="Views\Productos\Edit.cshtml" />
-    <Content Include="Views\Productos\Index.cshtml" />
-    <Content Include="Views\TipoClientes\Create.cshtml" />
-    <Content Include="Views\TipoClientes\Delete.cshtml" />
-    <Content Include="Views\TipoClientes\Details.cshtml" />
-    <Content Include="Views\TipoClientes\Edit.cshtml" />
-    <Content Include="Views\TipoClientes\Index.cshtml" />
     <Content Include="Views\Pedidos\Create.cshtml" />
     <Content Include="Views\Pedidos\Delete.cshtml" />
     <Content Include="Views\Pedidos\Details.cshtml" />
     <Content Include="Views\Pedidos\Edit.cshtml" />
     <Content Include="Views\Pedidos\Index.cshtml" />
+    <Content Include="Views\Productos\Create.cshtml" />
+    <Content Include="Views\Productos\Delete.cshtml" />
+    <Content Include="Views\Productos\Details.cshtml" />
+    <Content Include="Views\Productos\Edit.cshtml" />
+    <Content Include="Views\Productos\Index.cshtml" />
+    <Content Include="Views\Clientes\Create.cshtml" />
+    <Content Include="Views\Clientes\Delete.cshtml" />
+    <Content Include="Views\Clientes\Details.cshtml" />
+    <Content Include="Views\Clientes\Edit.cshtml" />
+    <Content Include="Views\Clientes\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -371,9 +365,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>49834</DevelopmentServerPort>
+          <DevelopmentServerPort>50385</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:49834/</IISUrl>
+          <IISUrl>http://localhost:50385/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

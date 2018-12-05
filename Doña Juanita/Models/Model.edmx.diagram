@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="eb073aed85744b4abbda78322a575f65" Name="Diagram1">
+        <EntityTypeShape EntityType="DoñaJuanitaModel.Clientes" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoñaJuanitaModel.Pedidos" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoñaJuanitaModel.Productos" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoñaJuanitaModel.TipoCliente" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <AssociationConnector Association="DoñaJuanitaModel.FK__Pedidos__Nombre__36B12243" ManuallyRouted="false" />
+        <AssociationConnector Association="DoñaJuanitaModel.FK__Pedidos__Descuen__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="DoñaJuanitaModel.FK__Pedidos__NombreP__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="DoñaJuanitaModel.FK__Pedidos__Tipo__37A5467C" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

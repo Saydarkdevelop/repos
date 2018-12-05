@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3bf1776e01ee489d952f5ee5e7b74ea2" Name="Diagram1" ZoomLevel="84">
+        <EntityTypeShape EntityType="DoñasjuanitasModel.Clientes" Width="1.5" PointX="0.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoñasjuanitasModel.Pedidos" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoñasjuanitasModel.Productos" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DoñasjuanitasModel.TipoCliente" Width="1.5" PointX="0.75" PointY="8.125" IsExpanded="true" />
+        <AssociationConnector Association="DoñasjuanitasModel.FK__Pedidos__Nombre__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="DoñasjuanitasModel.FK__Pedidos__Descuen__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="DoñasjuanitasModel.FK__Pedidos__NombreP__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="DoñasjuanitasModel.FK__Pedidos__Tipo__3F466844" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
